@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2  python3 main.py -KBdataset dbpedia50 -training_dataset_augument_by_multisent False -num_epochs 150 -relation_attention2headandtaildef False -batch_size 256 -definition_seq2seq multiheadstackatt  -embedding_strategy elmo -encoder bow -only_consider_its_one_gold True

@@ -1,0 +1,3 @@
+ulimit -n 150000;
+python3 preprocess_ent2type_desc_cano_reladj.py -entity_symbol2cano_type_desc_alreadydumped False -reverse_rel_data_alreadydumped False -KBdataset dbpedia50;
+python3 preprocess_ent2type_desc_cano_reladj.py -entity_symbol2cano_type_desc_alreadydumped False -reverse_rel_data_alreadydumped False -KBdataset dbpedia500
